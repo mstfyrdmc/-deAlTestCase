@@ -1,0 +1,83 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1050milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1050"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55953"}
+{"logLevel":"info","message":"Listening on port:55953"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.SetUserName' and 'Tests.LoginTest.SetUserName'"}
+{"logLevel":"debug","message":"Found Kullanıcı adı {} olarak girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.FavoriteProductTest.ClickDeleteAllSelectedProduct' and 'Tests.FavoriteProductTest.ClickDeleteAllSelectedProduct'"}
+{"logLevel":"debug","message":"Found Tum secimleri kaldir butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductsPageTest.IsSearchedProductExist' and 'Tests.ProductsPageTest.IsSearchedProductExist'"}
+{"logLevel":"debug","message":"Found Aranan urunun geldigi gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.IsLoginSuccess' and 'Tests.LoginTest.IsLoginSuccess'"}
+{"logLevel":"debug","message":"Found Login girisinin basarili oldugu gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.FavoriteProductTest.ClickDeleteConfirmButton' and 'Tests.FavoriteProductTest.ClickDeleteConfirmButton'"}
+{"logLevel":"debug","message":"Found Cikan pop-up da sil butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductsPageTest.SelectRandomProduct' and 'Tests.ProductsPageTest.SelectRandomProduct'"}
+{"logLevel":"debug","message":"Found Rastgele bir urun secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.HomePageTest.IsHomePageLoaded' and 'Tests.HomePageTest.IsHomePageLoaded'"}
+{"logLevel":"debug","message":"Found Anasayfanin acildigi gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.HomePageTest.initializeWebSite' and 'Tests.HomePageTest.initializeWebSite'"}
+{"logLevel":"debug","message":"Found {} sitesine giris yapilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductsPageTest.ControllSecondPageOpened' and 'Tests.ProductsPageTest.ControllSecondPageOpened'"}
+{"logLevel":"debug","message":"Found 2.sayfanin acildigi kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClikcLoginButton' and 'Tests.LoginTest.ClikcLoginButton'"}
+{"logLevel":"debug","message":"Found Giris Yap butonuna tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductDetailTest.CilckMyFavorites' and 'Tests.ProductDetailTest.CilckMyFavorites'"}
+{"logLevel":"debug","message":"Found Hesabım alanindan begendiklerime tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductsPageTest.ClickSecondPage' and 'Tests.ProductsPageTest.ClickSecondPage'"}
+{"logLevel":"debug","message":"Found 2.sayfaya tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.HomePageTest.SearchProduct' and 'Tests.HomePageTest.SearchProduct'"}
+{"logLevel":"debug","message":"Found Arama alaninda {} aratilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.ClickSignIn' and 'Tests.LoginTest.ClickSignIn'"}
+{"logLevel":"debug","message":"Found Anasayfada giris Yap a tiklanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.FavoriteProductTest.isFavoriteListEmpty' and 'Tests.FavoriteProductTest.isFavoriteListEmpty'"}
+{"logLevel":"debug","message":"Found Favori listesinin bos oldugu gorulur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.LoginTest.SetPassword' and 'Tests.LoginTest.SetPassword'"}
+{"logLevel":"debug","message":"Found Password alanına {} girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ProductDetailTest.AddFavoriteProduct' and 'Tests.ProductDetailTest.AddFavoriteProduct'"}
+{"logLevel":"debug","message":"Found Secilen urun favorilere eklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.FavoriteProductTest.SelectAllFavoritesProduct' and 'Tests.FavoriteProductTest.SelectAllFavoritesProduct'"}
+{"logLevel":"debug","message":"Found Favorilerimden tum urunler secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.FavoriteProductTest.IsFavoriteProductPresent' and 'Tests.FavoriteProductTest.IsFavoriteProductPresent'"}
+{"logLevel":"debug","message":"Found Favorilerde urun oldugu gorulur in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tFavori listesinin bos oldugu gorulur : public void isFavoriteListEmpty()"}
+{"logLevel":"debug","message":"\tAnasayfanin acildigi gorulur : public void IsHomePageLoaded()"}
+{"logLevel":"debug","message":"\tKullanıcı adı {} olarak girilir : public void SetUserName(String userName)"}
+{"logLevel":"debug","message":"\tGiris Yap butonuna tiklanir : public void ClikcLoginButton()"}
+{"logLevel":"debug","message":"\tAnasayfada giris Yap a tiklanir : public void ClickSignIn()"}
+{"logLevel":"debug","message":"\tCikan pop-up da sil butonuna tiklanir : public void ClickDeleteConfirmButton()"}
+{"logLevel":"debug","message":"\tFavorilerde urun oldugu gorulur : public void IsFavoriteProductPresent()"}
+{"logLevel":"debug","message":"\tAranan urunun geldigi gorulur : public void IsSearchedProductExist()"}
+{"logLevel":"debug","message":"\tTum secimleri kaldir butonuna tiklanir : public void ClickDeleteAllSelectedProduct()"}
+{"logLevel":"debug","message":"\tRastgele bir urun secilir : public void SelectRandomProduct()"}
+{"logLevel":"debug","message":"\tLogin girisinin basarili oldugu gorulur : public void IsLoginSuccess()"}
+{"logLevel":"debug","message":"\tFavorilerimden tum urunler secilir : public void SelectAllFavoritesProduct()"}
+{"logLevel":"debug","message":"\tSecilen urun favorilere eklenir : public void AddFavoriteProduct()"}
+{"logLevel":"debug","message":"\t{} sitesine giris yapilir : public void initializeWebSite(String url)"}
+{"logLevel":"debug","message":"\t2.sayfaya tiklanir : public void ClickSecondPage()"}
+{"logLevel":"debug","message":"\tHesabım alanindan begendiklerime tiklanir : public void CilckMyFavorites()"}
+{"logLevel":"debug","message":"\tArama alaninda {} aratilir : public void SearchProduct(String productName)"}
+{"logLevel":"debug","message":"\t2.sayfanin acildigi kontrol edilir : public void ControllSecondPageOpened()"}
+{"logLevel":"debug","message":"\tPassword alanına {} girilir : public void SetPassword(String password)"}
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 40953
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 31, 2021 4:21:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} sitesine giris yapilir' using 'class Tests.HomePageTest.initializeWebSite"}
+{"logLevel":"debug","message":"Executing 'Anasayfanin acildigi gorulur' using 'class Tests.HomePageTest.IsHomePageLoaded"}
+{"logLevel":"debug","message":"Executing 'Anasayfada giris Yap a tiklanir' using 'class Tests.LoginTest.ClickSignIn"}
+{"logLevel":"debug","message":"Executing 'Kullanıcı adı {} olarak girilir' using 'class Tests.LoginTest.SetUserName"}
+{"logLevel":"debug","message":"Executing 'Password alanına {} girilir' using 'class Tests.LoginTest.SetPassword"}
+{"logLevel":"debug","message":"Executing 'Giris Yap butonuna tiklanir' using 'class Tests.LoginTest.ClikcLoginButton"}
+{"logLevel":"debug","message":"Executing 'Login girisinin basarili oldugu gorulur' using 'class Tests.LoginTest.IsLoginSuccess"}
